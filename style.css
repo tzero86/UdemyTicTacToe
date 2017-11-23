@@ -9,15 +9,22 @@
 table {
     border-spacing: 0px;
     border-collapse: separate;
-    margin: 0 auto;
+    margin: auto;
 }
 
 td {
-    border: 1px solid black;
     width: 200px;
     height: 200px;
-    margin: 0px;
-    text-align: center;
+}
+
+.horizontal {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.vertical {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 
